@@ -7,7 +7,7 @@ enum FooterBar {
 
 const FooterAppBar_MAPS: Record<FooterBar, string> = {
   [FooterBar.REGULAR]:
-    'flex items-center justify-between flex-wrap h-14 px-6 bg-teal-500',
+    'flex items-center justify-between flex-wrap h-14 px-6 bg-[teal]',
   [FooterBar.EXTENDED]: 'flex items-center justify-between flex-wrap h-full',
 };
 

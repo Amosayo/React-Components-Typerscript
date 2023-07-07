@@ -5,7 +5,7 @@ enum LeftSideContainer {
 }
 
 const SIDEVARIANT_MAPS: Record<LeftSideContainer, string> = {
-  [LeftSideContainer.LEFTCOLUMN]: 'bg-green-500 flex flex-col w-1/3 h-screen',
+  [LeftSideContainer.LEFTCOLUMN]: 'bg-[green] flex flex-col w-1/3 h-screen',
 };
 
 type SideVariantProps = {

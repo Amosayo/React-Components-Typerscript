@@ -5,7 +5,7 @@ enum RightSideArea {
 }
 
 const RIGHTSIDEAREA_MAPS: Record<RightSideArea, string> = {
-  [RightSideArea.RIGHTCOLUMN]: 'bg-green-500 flex flex-col w-1/3 h-screen',
+  [RightSideArea.RIGHTCOLUMN]: 'bg-[green] flex flex-col w-1/3 h-screen',
 };
 
 type RightSideAreaProps = {
