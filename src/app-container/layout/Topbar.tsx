@@ -6,7 +6,8 @@ enum TopBar {
 }
 
 const TopAppBar_MAPS: Record<TopBar, string> = {
-  [TopBar.REGULAR]: 'flex items-center flex-wrap h-14 px-6 bg-[teal] text-[white]',
+  [TopBar.REGULAR]:
+    'flex items-center flex-wrap bg-[white] text-[black] shadow-[rgba(65,_105,_225,_0.25)_0px_4px_4px_0px]',
   [TopBar.EXTENDED]:
     'flex items-center justify-between flex-wrap bg-teal-500 h-screen',
 };

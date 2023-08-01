@@ -7,9 +7,9 @@ enum MainContentArea {
 }
 
 const CONTENTAREA_MAPS: Record<MainContentArea, string> = {
-  [MainContentArea.FULLCOLUMN]: 'bg-red-400 w-full ',
+  [MainContentArea.FULLCOLUMN]: 'bg-[#F2E9E9] w-full ',
   [MainContentArea.TWOCOLUMN]: 'bg-orange-500 w-2/3 ',
-  [MainContentArea.THREECOLUMN]: 'bg-[white]] w-6/12 ',
+  [MainContentArea.THREECOLUMN]: 'bg-[white] w-6/12 ',
 };
 
 type MainContentAreaProps = {
