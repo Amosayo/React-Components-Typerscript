@@ -6,6 +6,7 @@ import BlogsCard from './BlogCards';
 import AquaCake from '../../../src/assets/general/AquaCake.jpg';
 import CutieCake from '../../../src/assets/general/CutieCake.jpg';
 import PrincessCupcake from '../../../src/assets/general/PrincessCupcake.jpg';
+
 function BlogSelections() {
   return (
     <div className="bg-[#F2E9E9] mb-10 mt-5 py-12">

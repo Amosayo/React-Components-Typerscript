@@ -16,10 +16,10 @@ const CardsComponent_MAPS: Record<CardTypes, string> = {
 };
 
 type CardProps = {
-  Title: string;
-  Description: string;
-  image: unknown;
-  imageAlt: string;
+  Title?: string;
+  Description?: string;
+  image?: unknown;
+  imageAlt?: string;
 };
 
 const BlogsCard: FunctionComponent<CardProps> = function blogscard({
@@ -36,7 +36,7 @@ const BlogsCard: FunctionComponent<CardProps> = function blogscard({
       <div className="px-5 py-4">
         <h2 className="text-2xl mb-2">{Title}</h2>
         <p className="text-sm mb-4 text-justify">{Description}</p>
-        <div>
+        <div className="flex justify-center max-w-full">
           <Button ButtonVariant={ButtonTypes.FILLED}>Filled Button</Button>
         </div>
       </div>

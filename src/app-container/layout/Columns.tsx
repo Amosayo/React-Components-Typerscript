@@ -10,8 +10,8 @@ enum Columns {
 
 const COLUMNS_MAPS: Record<Columns, string> = {
   [Columns.ONECOLUMN]: 'bg-[#F2E9E9] columns-1',
-  [Columns.TWOCOLUMNS]: 'bg-orange-500 columns-2',
-  [Columns.THREECOLUMNS]: 'columns-3 space-x-2 mx-2',
+  [Columns.TWOCOLUMNS]: 'flex flex-row columns-2 space-x-12 pt-16',
+  [Columns.THREECOLUMNS]: 'columns-3 flex flex-row space-x-12',
   [Columns.FOURCOLUMNS]: 'bg-[white] columns-4',
   [Columns.FIVECOLUMNS]: 'bg-[white] columns-5',
 };
